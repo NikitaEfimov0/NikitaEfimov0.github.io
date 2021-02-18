@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lobby</title>
+        <link rel="stylesheet" href="/Users/ddomingo/my_own_site/Alma/styles/lobby.css">
+    </head>
+    <body id="lobby">
+        <h1 align="center" id = "info">Добро пожаловть в мое королевство, чужестранец!</h1>
+        <p></p>
+        <div id = "box">
+            <div id = "intro" width = "40px">
+                <a id = "title">Информация:</a>
+                <p>Меня зовут Альма. Я - королева этих земель. Что ж, я рада, что ты решил посетить мое королевство.</p>
+                <p>Для начала, если ты уже знаком со мной, то представься. Если же нет, то довольствуйся тем, что тебе пока доступно. Незнакомых людей я не пускаю внутрь своего королевства, а тем более - во дворец.</p> 
+                
+            </div>
+            <div id = "intro">
+                    <a>Логин</a> <input id = "login" type = "text" name = "login" placeholder = "Введите свое имя"/>
+                    <p><a>Пароль</a> <input id = "password" type = "password" name = "password" placeholder = "Введите пароль"/></p>
+                    <p><button id = "enter" onclick = "login()">Здравствуйте, моя Королева!</button></p>
+            </div>
+        </div>
+        <p>
+
+        </p>
+        <p></p>
+        <div id = "box_1">
+            <div id = "guest">
+                Итак, пока ты не представился, все, что ты можешь сделать, это ознакомиться с картой моего королевства, а так же задать вопросы моему советнику. Он поможет тебе разобраться.
+            </div>
+            <div>
+                <div id = "social">
+                    <a id = "answer">Привет! Меня зовут Инир. <p>Я, советник королевы, <p>отвечу на любые твои вопросы.</p></p></a>
+                    <p id = "sending"><input id = "inp" type = "text" placeholder = "Введите сообщение"/></p>
+                    <p><button id = "enter" onclick="send_mes()">Отправить сообщение</button></p>
+                </div>
+                <p id = "map"><button id = "enter" onclick = "openmap()">Показать карту</button></p>
+            </div>
+        </div>
+        <script src = "/Users/ddomingo/my_own_site/Alma/scripts/enter.js">
+        
+        </script>
+    </body>
+</html>
